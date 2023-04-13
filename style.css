@@ -378,6 +378,51 @@ body {
       margin-top: 20px;
       flex-basis: 100%;
     }
+    
+    }
+    
+
+
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+  .sidebar {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .main {
+      flex-basis: 100%;
+    }
+  
+    .infoContainer {
+      flex-direction: column;
+    }
+  
+    .image {
+      margin-top: 20px;
+      flex-basis: 100%;
+    }
+    }
+
+/* Mobile styles */
+@media screen and (max-width: 575px) {
+ .sidebar {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .main {
+      flex-basis: 100%;
+    }
+  
+    .infoContainer {
+      flex-direction: column;
+    }
+  
+    .image {
+      margin-top: 20px;
+      flex-basis: 100%;
+    }
+}
   }
   
 
