@@ -2538,7 +2538,7 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 123%;
+				width: 100%;
 			}
 
 			.image.main:first-child {
